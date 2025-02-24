@@ -11,10 +11,15 @@ export function Model(props) {
   return (
     <group {...props} dispose={null}>
       <group name="Scene">
+        <group name="coinoperatedbinocular" position={[-3.156, 1.681, -1.443]} rotation={[Math.PI, 0, Math.PI]} scale={0.009} userData={{ name: 'coinoperatedbinocular' }}>
+          <mesh name="bolt_low" geometry={nodes.bolt_low.geometry} material={nodes.bolt_low.material} position={[69.727, 45.7, -28.641]} rotation={[3.085, -1.286, -0.054]} userData={{ name: 'bolt_low' }} />
+        </group>
         <mesh name="Wireframe" geometry={nodes.Wireframe.geometry} material={nodes.Wireframe.material} userData={{ name: 'Wireframe' }} />
         <mesh name="Vert003" geometry={nodes.Vert003.geometry} material={nodes.Vert003.material} userData={{ name: 'Vert.003' }} />
         <mesh name="Vert004" geometry={nodes.Vert004.geometry} material={nodes.Vert004.material} userData={{ name: 'Vert.004' }} />
         <mesh name="Vert005" geometry={nodes.Vert005.geometry} material={nodes.Vert005.material} userData={{ name: 'Vert.005' }} />
+        <mesh name="Sci-fi_Barrel_-_Standart" geometry={nodes['Sci-fi_Barrel_-_Standart'].geometry} material={nodes['Sci-fi_Barrel_-_Standart'].material} position={[-1.163, 0.102, 3.551]} scale={0.49} userData={{ name: 'Sci-fi Barrel - Standart' }} />
+        <mesh name="Mailbox" geometry={nodes.Mailbox.geometry} material={nodes.Mailbox.material} position={[1.59, 0.468, -2.721]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.446} userData={{ name: 'Mailbox' }} />
         <mesh name="Wireframe001" geometry={nodes.Wireframe001.geometry} material={nodes.Wireframe001.material} userData={{ name: 'Wireframe.001' }} />
         <mesh name="Tank015" geometry={nodes.Tank015.geometry} material={nodes.Tank015.material} userData={{ name: 'Tank.015' }} />
         <mesh name="Pill003" geometry={nodes.Pill003.geometry} material={nodes.Pill003.material} userData={{ name: 'Pill.003' }} />
@@ -73,9 +78,7 @@ export function Model(props) {
           <mesh name="Window001" geometry={nodes.Window001.geometry} material={nodes.Window001.material} userData={{ name: 'Window.001' }} />
         </mesh>
         <mesh name="Fan" geometry={nodes.Fan.geometry} material={nodes.Fan.material} position={[1.204, 0.78, -1.005]} userData={{ name: 'Fan' }} />
-        <mesh name="Island" geometry={nodes.Island.geometry} material={nodes.Island.material} userData={{ name: 'Island' }}>
-          <mesh name="Island001" geometry={nodes.Island001.geometry} material={nodes.Island001.material} userData={{ name: 'Island.001' }} />
-        </mesh>
+        <mesh name="Island" geometry={nodes.Island.geometry} material={nodes.Island.material} userData={{ name: 'Island' }} />
         <mesh name="LightBuildingMiddle" geometry={nodes.LightBuildingMiddle.geometry} material={nodes.LightBuildingMiddle.material} userData={{ name: 'LightBuildingMiddle' }} />
         <mesh name="LightBuildingTop" geometry={nodes.LightBuildingTop.geometry} material={nodes.LightBuildingTop.material} userData={{ name: 'LightBuildingTop' }} />
         <mesh name="LightSign" geometry={nodes.LightSign.geometry} material={nodes.LightSign.material} userData={{ name: 'LightSign' }} />
@@ -100,7 +103,6 @@ export function Model(props) {
         <mesh name="Text_Paradise" geometry={nodes.Text_Paradise.geometry} material={nodes.Text_Paradise.material} userData={{ name: 'Text_Paradise' }} />
         <mesh name="Text_Pitstop" geometry={nodes.Text_Pitstop.geometry} material={nodes.Text_Pitstop.material} userData={{ name: 'Text_Pitstop' }} />
         <mesh name="Tires" geometry={nodes.Tires.geometry} material={nodes.Tires.material} userData={{ name: 'Tires' }} />
-        <mesh name="Trashcan" geometry={nodes.Trashcan.geometry} material={nodes.Trashcan.material} userData={{ name: 'Trashcan' }} />
         <mesh name="Vending-machine" geometry={nodes['Vending-machine'].geometry} material={nodes['Vending-machine'].material} userData={{ name: 'Vending-machine' }} />
         <mesh name="WallFan" geometry={nodes.WallFan.geometry} material={nodes.WallFan.material} userData={{ name: 'WallFan' }}>
           <mesh name="LightFan" geometry={nodes.LightFan.geometry} material={nodes.LightFan.material} userData={{ name: 'LightFan' }} />
