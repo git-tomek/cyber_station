@@ -11,13 +11,11 @@ export function Model(props) {
   return (
     <group {...props} dispose={null}>
       <group name="Scene">
-        <group name="coinoperatedbinocular" position={[-3.156, 1.681, -1.443]} rotation={[Math.PI, 0, Math.PI]} scale={0.009} userData={{ name: 'coinoperatedbinocular' }}>
-          <mesh name="bolt_low" geometry={nodes.bolt_low.geometry} material={nodes.bolt_low.material} position={[69.727, 45.7, -28.641]} rotation={[3.085, -1.286, -0.054]} userData={{ name: 'bolt_low' }} />
-        </group>
         <mesh name="Wireframe" geometry={nodes.Wireframe.geometry} material={nodes.Wireframe.material} userData={{ name: 'Wireframe' }} />
         <mesh name="Vert003" geometry={nodes.Vert003.geometry} material={nodes.Vert003.material} userData={{ name: 'Vert.003' }} />
         <mesh name="Vert004" geometry={nodes.Vert004.geometry} material={nodes.Vert004.material} userData={{ name: 'Vert.004' }} />
         <mesh name="Vert005" geometry={nodes.Vert005.geometry} material={nodes.Vert005.material} userData={{ name: 'Vert.005' }} />
+        <mesh name="bolt_low" geometry={nodes.bolt_low.geometry} material={nodes.bolt_low.material} position={[-3.774, 2.086, -1.189]} rotation={[0.057, 1.286, 3.087]} scale={0.009} userData={{ name: 'bolt_low' }} />
         <mesh name="Sci-fi_Barrel_-_Standart" geometry={nodes['Sci-fi_Barrel_-_Standart'].geometry} material={nodes['Sci-fi_Barrel_-_Standart'].material} position={[-1.163, 0.102, 3.551]} scale={0.49} userData={{ name: 'Sci-fi Barrel - Standart' }} />
         <mesh name="Mailbox" geometry={nodes.Mailbox.geometry} material={nodes.Mailbox.material} position={[1.59, 0.468, -2.721]} rotation={[Math.PI / 2, 0, -Math.PI / 2]} scale={0.446} userData={{ name: 'Mailbox' }} />
         <mesh name="Wireframe001" geometry={nodes.Wireframe001.geometry} material={nodes.Wireframe001.material} userData={{ name: 'Wireframe.001' }} />
